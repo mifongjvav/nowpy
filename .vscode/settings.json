@@ -1,0 +1,7 @@
+{
+    "python.defaultInterpreterPath": "D:/Python/Python311/python.exe",
+    "python.terminal.activateEnvironment": true,
+    "python.analysis.extraPaths": [
+        "D:/Python/Python311/Lib/site-packages"
+    ]
+}
