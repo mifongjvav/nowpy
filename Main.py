@@ -42,7 +42,7 @@ def 按下亮度变化(当前亮度, 按钮被按下, 按下亮度=0.6, 悬停�
 
 # 初始化Pygame
 pygame.init()
-screen = pygame.display.set_mode((900, 562), pygame.SCALED | pygame.DOUBLEBUF, vsync=1)
+screen = pygame.display.set_mode((900, 562), pygame.SCALED | pygame.DOUBLEBUF, vsync=0)
 pygame.display.set_caption("nowpy")
 clock = pygame.time.Clock()
 dt = 0
@@ -153,6 +153,6 @@ while 运行中:
     screen.blit(fps_surface, (10, 10))  # 在左上角显示
     
     pygame.display.flip()
-    clock.tick(60)
+    clock.tick(1000)
 
 pygame.quit()
